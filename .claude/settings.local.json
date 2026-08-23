@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__godot-ai__input_map_manage",
+      "mcp__godot-ai__scene_open",
+      "mcp__godot-ai__logs_read",
+      "mcp__godot-ai__editor_manage",
+      "Bash(xxd)",
+      "mcp__godot-ai__editor_state",
+      "mcp__godot-ai__project_run",
+      "mcp__godot-ai__game_manage",
+      "mcp__godot-ai__project_manage",
+      "mcp__godot-ai__script_attach",
+      "mcp__godot-ai__node_set_property",
+      "mcp__godot-ai__node_create",
+      "mcp__godot-ai__scene_save",
+      "mcp__godot-ai__scene_manage",
+      "mcp__godot-ai__node_get_properties",
+      "Bash(python3 gen_level2_tiles.py)",
+      "Bash(python3 -c ' *)",
+      "mcp__godot-ai__scene_get_hierarchy",
+      "mcp__godot-ai__editor_screenshot",
+      "mcp__godot-ai__filesystem_manage",
+      "Bash(where godot *)",
+      "Bash(where Godot_v4*)"
+    ]
+  }
+}

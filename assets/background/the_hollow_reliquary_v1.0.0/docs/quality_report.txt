@@ -1,0 +1,16 @@
+QUALITY REPORT - THE HOLLOW RELIQUARY v1.0.0
+
+QG-01 Concept: original hollow-reliquary motif; no third-party game assets.
+QG-02 Specification: side-view, 32x32 grid, upper-left light, separate effects.
+QG-03 Static art: 236 native-resolution PNG RGBA files verified.
+QG-04 Animation: 6 actions; declared frames, GIF counts and sheets verified.
+QG-05 Set: one palette, scale and material language across the pack.
+QG-06 Files: 256 files, portable names, zero duplicate PNGs, exact sheet/frame parity.
+QG-07 Delivery: Tiled XML parsed; preview sizes verified; SHA-256 list generated.
+
+DEEP QA RESULT: PASSED
+PNG errors: 0
+Duplicate PNGs: 0
+Frame/sheet mismatches: 0
+Terrain/architecture sheet mismatches: 0
+Tiled data errors: 0

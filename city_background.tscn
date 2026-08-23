@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://v7pgaght5lmh"]
+
+[ext_resource type="Texture2D" uid="uid://c72qemhhtpf02" path="res://assets/background/cityBG/bridge.png" id="1_0fkbm"]
+[ext_resource type="Texture2D" uid="uid://qwd4nt5d7k2u" path="res://assets/background/cityBG/sky background.png" id="2_df2f4"]
+[ext_resource type="Texture2D" uid="uid://defq06rvmrfa8" path="res://assets/background/cityBG/tier 1.png" id="3_u8wg1"]
+[ext_resource type="Texture2D" uid="uid://fdpuoklcpds" path="res://assets/background/cityBG/tier 2.png" id="4_4btx1"]
+[ext_resource type="Texture2D" uid="uid://cfvh0smkahddf" path="res://assets/background/cityBG/tier 3.png" id="5_bybx2"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" unique_id=1435948224]
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1495979325]
+position = Vector2(-110, 560)
+scale = Vector2(0.3333334, 0.45740736)
+texture = ExtResource("2_df2f4")
+centered = false
+
+[node name="Sprite2D4" type="Sprite2D" parent="Sprite2D2" unique_id=1733423176]
+position = Vector2(2.9999847, -6.5586424)
+scale = Vector2(1.0163846, 0.9504457)
+texture = ExtResource("4_4btx1")
+centered = false
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D2" unique_id=106678449]
+position = Vector2(3536.999, -45.910896)
+scale = Vector2(1.0041664, 0.98785436)
+texture = ExtResource("2_df2f4")
+centered = false
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D2" unique_id=1497216771]
+position = Vector2(2.9999847, -2.186142)
+scale = Vector2(1.0046873, 0.9679875)
+texture = ExtResource("5_bybx2")
+centered = false
+
+[node name="bgc5ParallaxLayer" type="ParallaxLayer" parent="." unique_id=1117116700]
+position = Vector2(-110, 871)
+motion_mirroring = Vector2(640, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bgc5ParallaxLayer" unique_id=1693642226]
+position = Vector2(1, -312)
+scale = Vector2(0.33333334, 0.65508014)
+texture = ExtResource("1_0fkbm")
+centered = false
+
+[node name="bgc4ParallaxLayer2" type="ParallaxLayer" parent="." unique_id=2121529647]
+position = Vector2(-110, 871)
+motion_scale = Vector2(0.92, 0.92)
+motion_mirroring = Vector2(640, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bgc4ParallaxLayer2" unique_id=799116498]
+position = Vector2(-35.999996, -275)
+scale = Vector2(0.33385417, 0.44601962)
+texture = ExtResource("3_u8wg1")
+centered = false
+
+[node name="bgc3ParallaxLayer3" type="ParallaxLayer" parent="." unique_id=1862606162]
+position = Vector2(-110, 871)
+motion_scale = Vector2(0.92, 0.92)
+motion_mirroring = Vector2(640, 0)

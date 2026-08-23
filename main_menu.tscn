@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://bqff8ewh6ispt"]
+
+[ext_resource type="Texture2D" uid="uid://b2lcfqaoff0vx" path="res://assets/background/backgroundtexture.png" id="1_06t4h"]
+[ext_resource type="Script" uid="uid://bxbce626nn5ky" path="res://main_menu.gd" id="1_7vrkn"]
+[ext_resource type="FontFile" uid="uid://b3t51j5kycm0v" path="res://assets/UnifrakturMaguntia-Regular.ttf" id="3_jix8l"]
+[ext_resource type="FontFile" uid="uid://sq8qrk5ts217" path="res://assets/fonts/Cinzel-VariableFont_wght.ttf" id="4_glbon"]
+
+[node name="MainMenu" type="Node2D" unique_id=1599827549]
+script = ExtResource("1_7vrkn")
+
+[node name="BackgroundImage" type="TextureRect" parent="." unique_id=580830879]
+offset_right = 640.0
+offset_bottom = 360.0
+texture = ExtResource("1_06t4h")
+expand_mode = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1270693772]
+
+[node name="Title" type="Label" parent="CanvasLayer" unique_id=644079709]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "GRAVEMOURNE"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=474434455]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NewGame" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=2078568924]
+layout_mode = 2
+text = "New Game"
+
+[node name="Controls" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1667918801]
+layout_mode = 2
+text = "Controls"
+
+[node name="Options" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=986922965]
+layout_mode = 2
+text = "Options"
+
+[node name="Quit" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=810613509]
+layout_mode = 2
+text = "Quit"
+
+[node name="StoryScreen" type="ColorRect" parent="CanvasLayer" unique_id=874358657]
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="StoryText" type="Label" parent="CanvasLayer/StoryScreen" unique_id=1126015420]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="OptionsMenu" type="ColorRect" parent="CanvasLayer" unique_id=915292957]
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="MusicSlider" type="HSlider" parent="CanvasLayer/OptionsMenu" unique_id=1875085400]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 16.0
+
+[node name="SFXSlider" type="HSlider" parent="CanvasLayer/OptionsMenu" unique_id=1999775470]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 16.0
+
+[node name="Back" type="Button" parent="CanvasLayer/OptionsMenu" unique_id=1093723607]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ControlsMenu" type="ColorRect" parent="CanvasLayer" unique_id=1656068756]
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="ControlsList" type="Label" parent="CanvasLayer/ControlsMenu" unique_id=1423717203]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Back" type="Button" parent="CanvasLayer/ControlsMenu" unique_id=463432416]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="FadeOverlay" type="ColorRect" parent="CanvasLayer" unique_id=401612374]
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://rd7w4s3oji6n"]
+
+[ext_resource type="Script" uid="uid://b6lmnlb6rc4hf" path="res://scripts/ending.gd" id="1_ending"]
+[ext_resource type="Texture2D" uid="uid://djb41hv6h3fqy" path="res://assets/background/Dark Gothic Castle.png" id="2_fyrdv"]
+
+[node name="Ending" type="Node2D" unique_id=900000020]
+script = ExtResource("1_ending")
+
+[node name="BackgroundImage" type="TextureRect" parent="." unique_id=900000021]
+offset_right = 640.0
+offset_bottom = 360.0
+texture = ExtResource("2_fyrdv")
+expand_mode = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=900000022]
+
+[node name="Fade" type="ColorRect" parent="CanvasLayer" unique_id=900000023]
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="TextBg" type="ColorRect" parent="CanvasLayer" unique_id=900000025]
+offset_right = 40.0
+offset_bottom = 23.0
+mouse_filter = 2
+
+[node name="EndText" type="Label" parent="CanvasLayer" unique_id=900000024]
+offset_right = 40.0
+offset_bottom = 23.0

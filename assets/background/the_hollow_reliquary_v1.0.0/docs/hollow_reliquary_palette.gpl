@@ -1,0 +1,36 @@
+GIMP Palette
+Name: Hollow Reliquary
+Columns: 8
+#
+  7   9  18	ink
+ 12  15  27	void
+ 19  24  39	deep
+ 29  36  51	slate0
+ 43  52  68	slate1
+ 63  73  89	slate2
+ 91 101 112	slate3
+126 137 142	cold
+116 106  86	bone0
+166 151 116	bone1
+211 196 157	bone2
+ 72  37  35	rust0
+112  55  43	rust1
+ 59  20  39	wine0
+105  31  55	wine1
+151  52  69	wine2
+ 89  65  36	gold0
+143 104  50	gold1
+202 157  78	gold2
+ 37  52  39	moss0
+ 59  79  48	moss1
+ 91 109  59	moss2
+ 28  63  71	aqua0
+ 45 103 108	aqua1
+ 88 166 157	aqua2
+ 49  29  68	violet0
+ 83  48 103	violet1
+137  76 144	violet2
+101  35  31	fire0
+184  62  38	fire1
+238 132  53	fire2
+255 214 109	fire3

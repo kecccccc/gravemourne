@@ -1,0 +1,39 @@
+TEXTO PARA LA PAGINA DE ITCH.IO - ESPANOL
+
+TITULO
+The Hollow Reliquary - Paquete de entorno gotico para metroidvania
+
+DESCRIPCION CORTA
+Un tileset dark fantasy modular de 32x32 con autotile de 47 piezas, props,
+animaciones, capas de parallax y archivos para Tiled.
+
+PRECIO SUGERIDO
+US$5.00. Descuento de lanzamiento opcional: 20% durante 7 dias.
+
+DESCRIPCION
+Construye un santuario olvidado bajo un reino moribundo.
+
+The Hollow Reliquary es un kit de entorno enfocado en juegos de accion lateral
+y metroidvanias. Piedra fria, oro envejecido, telas color vino, simbolos
+originales y magia contenida comparten una misma escala, iluminacion y paleta.
+
+INCLUYE
+- Autotile de terreno de 47 piezas y variante con musgo
+- 64 tiles de arquitectura modular
+- 23 props separados
+- 6 elementos animados con frames y spritesheets
+- 3 capas de fondo de 512x288
+- Archivo TSX y mapa TMX de ejemplo para Tiled
+- PNG RGBA, manifiesto, paleta, guia de colisiones e instrucciones
+
+Compatible con Unity, Godot, Unreal y motores personalizados. Usa filtro
+nearest-neighbor y escala entera para conservar el pixel art.
+
+LICENCIA
+Se permite uso comercial y la atribucion es opcional. No se permite revender ni
+redistribuir los assets fuente. Consulta la licencia incluida.
+
+DIVULGACION DE IA
+Se uso asistencia de IA en la planificacion y programacion procedural. Los PNG
+finales se generaron de forma determinista y fueron curados y verificados.
+No se incluye arte de videojuegos de terceros.

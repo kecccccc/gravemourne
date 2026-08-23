@@ -1,0 +1,56 @@
+ITCH.IO PRODUCT PAGE COPY
+
+TITLE
+The Hollow Reliquary - Gothic Metroidvania Environment Pack
+
+SHORT DESCRIPTION
+A modular 32x32 dark-fantasy sanctuary tileset with 47-tile autotiling, props,
+animations, parallax layers and Tiled files.
+
+SUGGESTED PRICE
+US$5.00 regular price. Optional launch discount: 20% for 7 days.
+
+DESCRIPTION
+Build a forgotten sanctuary beneath a dying kingdom.
+
+The Hollow Reliquary is a focused environment kit for side-scrolling action
+games and metroidvanias. Its cold stone, decayed gold, wine-red cloth, hollow
+saint sigils and restrained magical accents share one consistent scale, light
+direction and palette.
+
+WHAT YOU GET
+- 47-piece 8-neighbor terrain autotile, plus moss variant
+- 64 modular architecture tiles
+- 23 separate props
+- 6 animated environment elements with frames and spritesheets
+- 3 parallax-ready 512x288 background layers
+- Tiled TSX and sample TMX map
+- PNG RGBA, manifest, palette, collision guide and integration notes
+
+Designed for Unity, Godot, Unreal and custom engines. Use nearest-neighbor
+filtering at integer scale for the intended look.
+
+LICENSE
+Commercial use is allowed. Attribution is optional. Resale or redistribution
+of the source assets is prohibited. See the included license for full terms.
+
+AI DISCLOSURE
+AI-assisted planning and procedural coding were used. Final raster assets were
+generated deterministically, curated and technically verified. No third-party
+game art is included.
+
+SUGGESTED TAGS
+Pixel Art, 2D, Dark Fantasy, Gothic, Metroidvania, Platformer, Tileset,
+Environment, 32x32, Sprites, Animated, Royalty Free
+
+UPLOAD ORDER
+1. itch_cover_630x500.png
+2. store_gallery_01_scene_960x540.png
+3. store_gallery_02_contents_960x540.png
+4. store_gallery_03_integration_960x540.png
+5. selected animation GIFs
+
+PUBLISHING CHECK
+Upload the ZIP, keep the page as Draft, download it once from the page, extract
+it, open the sample TMX and inspect every gallery image before changing the page
+to Released.

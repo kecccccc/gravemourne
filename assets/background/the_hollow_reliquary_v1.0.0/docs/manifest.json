@@ -1,0 +1,326 @@
+{
+  "name": "The Hollow Reliquary",
+  "version": "1.0.0",
+  "publisher": "Obssidian Art",
+  "category": "side-view metroidvania environment",
+  "grid": [
+    32,
+    32
+  ],
+  "format": "PNG RGBA",
+  "direction": "side-view",
+  "light_direction": "upper-left",
+  "palette_file": "docs/hollow_reliquary_palette.gpl",
+  "assets": {
+    "terrain": {
+      "variants": [
+        "stone",
+        "moss"
+      ],
+      "usable_tiles_per_variant": 47,
+      "sheet": [
+        256,
+        192
+      ],
+      "autotile": "8-neighbor blob"
+    },
+    "architecture": {
+      "tiles": 64,
+      "sheet": [
+        256,
+        256
+      ]
+    },
+    "props": [
+      {
+        "name": "altar",
+        "size": [
+          96,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/altar.png"
+      },
+      {
+        "name": "bone_pile",
+        "size": [
+          64,
+          32
+        ],
+        "pivot": "bottom-center",
+        "file": "props/bone_pile.png"
+      },
+      {
+        "name": "broken_pew",
+        "size": [
+          96,
+          32
+        ],
+        "pivot": "bottom-center",
+        "file": "props/broken_pew.png"
+      },
+      {
+        "name": "cage",
+        "size": [
+          64,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/cage.png"
+      },
+      {
+        "name": "candelabra",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/candelabra.png"
+      },
+      {
+        "name": "chalice",
+        "size": [
+          32,
+          32
+        ],
+        "pivot": "bottom-center",
+        "file": "props/chalice.png"
+      },
+      {
+        "name": "chandelier",
+        "size": [
+          96,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/chandelier.png"
+      },
+      {
+        "name": "coffin",
+        "size": [
+          64,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/coffin.png"
+      },
+      {
+        "name": "gargoyle_spout",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/gargoyle_spout.png"
+      },
+      {
+        "name": "hanging_chain",
+        "size": [
+          32,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/hanging_chain.png"
+      },
+      {
+        "name": "iron_gate",
+        "size": [
+          96,
+          128
+        ],
+        "pivot": "bottom-center",
+        "file": "props/iron_gate.png"
+      },
+      {
+        "name": "large_statue",
+        "size": [
+          96,
+          128
+        ],
+        "pivot": "bottom-center",
+        "file": "props/large_statue.png"
+      },
+      {
+        "name": "lectern",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/lectern.png"
+      },
+      {
+        "name": "pile_books",
+        "size": [
+          64,
+          32
+        ],
+        "pivot": "bottom-center",
+        "file": "props/pile_books.png"
+      },
+      {
+        "name": "reliquary",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/reliquary.png"
+      },
+      {
+        "name": "root_cluster",
+        "size": [
+          96,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/root_cluster.png"
+      },
+      {
+        "name": "rune_slab",
+        "size": [
+          64,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/rune_slab.png"
+      },
+      {
+        "name": "sarcophagus",
+        "size": [
+          96,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/sarcophagus.png"
+      },
+      {
+        "name": "small_candle",
+        "size": [
+          32,
+          32
+        ],
+        "pivot": "bottom-center",
+        "file": "props/small_candle.png"
+      },
+      {
+        "name": "storage_crate",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/storage_crate.png"
+      },
+      {
+        "name": "urn",
+        "size": [
+          32,
+          48
+        ],
+        "pivot": "bottom-center",
+        "file": "props/urn.png"
+      },
+      {
+        "name": "wall_banner",
+        "size": [
+          64,
+          96
+        ],
+        "pivot": "bottom-center",
+        "file": "props/wall_banner.png"
+      },
+      {
+        "name": "wall_lantern",
+        "size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "file": "props/wall_lantern.png"
+      }
+    ],
+    "animations": [
+      {
+        "name": "candle_flame",
+        "frames": 4,
+        "fps": 8,
+        "frame_size": [
+          32,
+          32
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/candle_flame.png"
+      },
+      {
+        "name": "brazier_fire",
+        "frames": 6,
+        "fps": 10,
+        "frame_size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/brazier_fire.png"
+      },
+      {
+        "name": "hollow_sigil",
+        "frames": 6,
+        "fps": 8,
+        "frame_size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/hollow_sigil.png"
+      },
+      {
+        "name": "reliquary_drip",
+        "frames": 6,
+        "fps": 8,
+        "frame_size": [
+          64,
+          64
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/reliquary_drip.png"
+      },
+      {
+        "name": "spike_trap",
+        "frames": 6,
+        "fps": 12,
+        "frame_size": [
+          64,
+          32
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/spike_trap.png"
+      },
+      {
+        "name": "ground_mist",
+        "frames": 8,
+        "fps": 8,
+        "frame_size": [
+          96,
+          64
+        ],
+        "pivot": "bottom-center",
+        "sheet": "spritesheets/ground_mist.png"
+      }
+    ],
+    "backgrounds": {
+      "layers": 3,
+      "size": [
+        512,
+        288
+      ],
+      "origin": "top-left"
+    },
+    "tiled": [
+      "engine/tiled/hollow_reliquary_terrain.tsx",
+      "engine/tiled/demo_map.tmx"
+    ]
+  },
+  "license": "Obssidian Art Commercial Asset License v1.0",
+  "ai_disclosure": "AI-assisted planning and procedural coding; deterministic raster generation and technical curation."
+}

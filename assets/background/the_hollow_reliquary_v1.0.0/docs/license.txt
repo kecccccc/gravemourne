@@ -1,0 +1,48 @@
+OBSSIDIAN ART COMMERCIAL ASSET LICENSE v1.0
+Effective date: 12 July 2026
+
+This license applies to The Hollow Reliquary asset pack (the "Assets").
+
+PERMITTED
+1. You may use and modify the Assets in personal and commercial games,
+   applications, videos, streams, printed promotional material and other
+   projects in which the Assets are integrated into a larger work.
+2. You may distribute the Assets only as an embedded or compiled part of that
+   larger work, provided recipients cannot reasonably extract and reuse them as
+   a standalone asset pack.
+3. You may share the Assets privately with employees and contractors who need
+   them for your project. They must follow this license and delete their copies
+   when their work ends.
+4. Attribution is optional. Suggested credit: "The Hollow Reliquary assets by
+   Obssidian Art."
+
+NOT PERMITTED
+1. Do not resell, redistribute, sublicense, give away or upload the Assets in
+   source form, whether original or modified, as a standalone product, template,
+   asset pack, public repository or downloadable project file.
+2. Do not create and distribute a competing asset pack mainly derived from the
+   Assets, including recolor, edit, conversion or AI-generated derivative packs.
+3. Do not use the Assets, previews or associated files as training data,
+   validation data or input for a machine-learning or generative-AI dataset.
+4. Do not claim authorship of the original Assets or use them unlawfully.
+
+OWNERSHIP AND AI DISCLOSURE
+Obssidian Art retains all rights not expressly granted. Production used
+AI-assisted planning and procedural coding; final raster assets were generated
+deterministically, curated and technically verified. No third-party game art is
+included. This statement is provided for transparency and does not expand the
+license grant.
+
+WARRANTY AND LIABILITY
+The Assets are provided "as is," without warranties to the extent permitted by
+law. Obssidian Art is not liable for indirect, incidental or consequential loss
+arising from use of the Assets. Total liability is limited to the amount paid
+for the Assets.
+
+TERMINATION
+This license ends if you materially breach it. Rights are restored when the
+breach is fully corrected within 30 days after discovery, unless the breach was
+intentional redistribution or repeat infringement. Existing compliant end-user
+copies of your integrated project may remain in circulation.
+
+If local law grants rights that cannot be waived, those rights remain unaffected.

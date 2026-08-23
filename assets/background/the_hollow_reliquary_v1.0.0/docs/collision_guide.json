@@ -1,0 +1,94 @@
+{
+  "grid": [
+    32,
+    32
+  ],
+  "terrain": {
+    "sheet": "tilesets/terrain_stone_32x32.png",
+    "solid_local_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "shape": [
+      0,
+      0,
+      32,
+      32
+    ]
+  },
+  "one_way_platforms": {
+    "sheet": "tilesets/architecture_32x32.png",
+    "suggested_local_ids": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "top_edge_y": 9
+  },
+  "hazards": {
+    "spike_trap": {
+      "damage_frames": [
+        2,
+        3,
+        4
+      ],
+      "suggested_box": [
+        4,
+        4,
+        56,
+        24
+      ]
+    }
+  },
+  "props": "decorative by default"
+}

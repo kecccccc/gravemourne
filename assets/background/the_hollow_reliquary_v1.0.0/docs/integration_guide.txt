@@ -1,0 +1,31 @@
+INTEGRATION GUIDE
+
+PIXEL-PERFECT DISPLAY
+1. Import PNG files without smoothing.
+2. Use nearest-neighbor filtering.
+3. Use integer camera zoom whenever possible.
+4. Disable lossy texture compression for these spritesheets.
+5. Keep tile and object positions on whole pixels at the target render scale.
+
+AUTOTILE
+The terrain uses a normalized 8-neighbor blob system. Cardinal neighbors are
+evaluated first. A diagonal bit is valid only when both adjacent cardinal bits
+are present. Read docs/autotile_47_map.json for tile-to-mask values.
+
+COLLISION
+Terrain IDs 1-47: full 32x32 solid collision by default.
+Architecture row 6 (sheet local IDs 48-55): suggested one-way platforms.
+Spike animation: the damaging region should be enabled only on frames 02-04.
+Props: decorative by default; add project-specific collision only when needed.
+
+ANIMATION TIMING
+candle_flame: 8 fps, loop
+brazier_fire: 10 fps, loop
+hollow_sigil: 8 fps, loop
+reliquary_drip: 8 fps, loop
+spike_trap: 12 fps, loop or trigger sequence
+ground_mist: 8 fps, loop
+
+PIVOTS
+Environment animations and props default to bottom-center. Backgrounds use the
+top-left origin. Terrain tiles use top-left origin on the 32x32 grid.
